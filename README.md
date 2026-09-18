@@ -1,2 +1,11 @@
-# revealline-archive-27
-Immutable RevealLine releases retained for historical play and comparison.
+# RevealLine archive27: proposed v0.61.9 retention
+
+This candidate retains the original published v0.61.9 distribution from source `6db978db40287151489803e915cb4ecb9ea232ee` and tree `50391b01ad011079c9ba66fe7e4f9f0ed229a1f9`. Its annotated tag is `27b7c212817e094ccf86d2b0cc4aa953235224e6` and release ID is `391596705`. All nine original asset descriptors are pinned in `input-authority.json`; the four committed metadata bodies are byte-identical to the current reviewed publisher Git records.
+
+The expected inventory has 701 files and 313,404,982 bytes: 698 release-cohort paths and three root support paths. This is a new archive with zero prior accepted, preserved or changed paths; every row is new. It is below the 800,000,000-byte / 20,000-row caps. Archive26 already holds v0.61.7 and v0.61.8 at 626,777,746 bytes; adding the v619 cohort would exceed 800 MB. No old archive route or original evidence is changed.
+
+The workflow explicitly fetches only `refs/tags/v0.61.9:refs/tags/v0.61.9`, checks its annotated object and peeled source, and uses the unchanged pinned extractor at `a13ab970222498d7c5fa7f62f9fc04fe436979d5`. It extracts the original ZIP on the hosted runner, checks every CRC and manifest hash, then independently rereads every output file including hidden support files. The preparation and verifier tools are unchanged from the accepted Archive26 initial template. Main-only deployment, non-cancelling concurrency, finite capacity and transport guards are preserved.
+
+Main v619 public bytes were verified, but its native acceptance is partial: the Still Media picker focus outline clips by 1.765625 CSS pixels after landscape-to-portrait at 390×844. Draft, text, preview and focus ownership survive. This archive preserves that version and known failure; it does not repair or accept the feature. v618 remains the previous accepted scoped baseline. Still Media and Enemy Workshop are shipped; exact manifest paths, rather than inferred packaging exclusions, determine the affected native checks.
+
+No Archive27 repository, deployment or acceptance is claimed by this local candidate. Root must approve allocation/adoption, bind the actual successful deployment and small receipt, audit all 701 public rows, and review scoped native retention before main admission. A safe practice launch/Pause/Resume and archive release-explorer return must preserve existing save ownership. The known picker failure and other incomplete media/input, physical-device, offline, audio and whole-phase gates remain explicit. Main and archive project paths share an origin; routing alone does not establish save isolation or migration.
